@@ -14,11 +14,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-🔭 SEO for upratujemeinak.sk
-🔭 new web for lesenievojtek.sk
-🌱 Ansible, AWX (hate it! :D)
-👯 Handheld console, surprise
-🤔 Ansible :D
-💬 Anything!
-📫 pastwos@gmail.com
-⚡ I dont work on stuff that make money, I work on stuff that make me happy!
+- 🔭 SEO for upratujemeinak.sk
+- 🔭 new web for lesenievojtek.sk
+- 🌱 Ansible, AWX (hate it! :D)
+- 👯 Handheld console, surprise
+- 🤔 Ansible :D
+- 💬 Anything!
+- 📫 pastwos@gmail.com
+- ⚡ I dont work on stuff that make money, I work on stuff that make me happy!
