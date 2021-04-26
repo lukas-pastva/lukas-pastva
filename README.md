@@ -15,10 +15,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 - 🔭 SEO for upratujemeinak.sk
-- 🔭 new web for lesenievojtek.sk
-- 🌱 Ansible, AWX (hate it! :D)
-- 👯 Handheld console, surprise
-- 🤔 Ansible :D
+- 🔭 new secred Startup!
+- 🔭 Network security, Win admin for smeyo.sk
+- 🌱 Ansible, AWX, Docker
+- 🤔 Docker ftp+php+mysql+apache
 - 💬 Anything!
 - 📫 pastwos@gmail.com
-- ⚡ I dont work on stuff that make money, I work on stuff that make me happy!
+- ⚡ It's jungle out there, so learn, be ready, go!!!
