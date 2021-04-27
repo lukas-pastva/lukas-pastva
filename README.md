@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 - 🔭 SEO for upratujemeinak.sk
-- 🔭 new secred Startup!
+- 🔭 new secret Startup!
 - 🔭 Network security, Win admin for smeyo.sk
 - 🌱 Ansible, AWX, Docker
 - 🤔 Docker ftp+php+mysql+apache
