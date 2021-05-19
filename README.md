@@ -14,6 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+- 🔭 Building in house server -CI/CD, web hosting
 - 🔭 SEO for upratujemeinak.sk
 - 🔭 new secret Startup!
 - 🔭 Network security, Win admin for smeyo.sk
