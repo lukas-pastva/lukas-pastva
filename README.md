@@ -18,8 +18,8 @@ Here are some ideas to get you started:
 - 🔭 SEO for upratujemeinak.sk
 - 🔭 new secret Startup!
 - 🔭 Network security, Win admin for smeyo.sk
-- 🌱 Ansible, AWX, Docker
-- 🤔 Docker ftp+php+mysql+apache
+- 🌱 Ansible, DinD
+- 🤔 Jenkins in Docker, DinD, Portainer
 - 💬 Anything!
 - 📫 pastwos@gmail.com
 - ⚡ It's jungle out there, so learn, be ready, go!!!
