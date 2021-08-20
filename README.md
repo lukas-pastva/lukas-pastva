@@ -6,5 +6,5 @@
 - 🤔 I’m looking for help with Mailu.io + Traefik + Cloudflare 
 - 👯 I’m looking to collaborate on ..hmm
 - 💬 Ask me about Anything!
-- 📫 How to reach me: pastwos@gmail.com
+- 📫 How to reach me: public@lukaspastva.sk
 - ⚡ Fun fact: It's jungle out there, so learn, be ready, go!!!
