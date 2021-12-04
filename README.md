@@ -1,7 +1,7 @@
 ### Hello my name is psw / pastwo / Lukáš Pastva 👋
 
-- 🔭 I’m currently working on new secret Startup and Chill project!
-- 🔭 I’m currently working on new DevOps + CI/CD + Dashboard + Reporting + Monitoring
+- 🔭 I’m currently working on secret Startup and Chill project!
+- 🔭 I’m currently working on DevOps + CI/CD + Dashboard + Reporting + Monitoring
 - 🌱 I’m currently learning Google Cloud
 - 🤔 I’m looking for help with SSO?
 - 👯 I’m looking to collaborate Beer drinking :D
