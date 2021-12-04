@@ -30,5 +30,5 @@
  - https://github.com/HomerBee/
  - https://github.com/SMEyo/
  - https://github.com/lukas-pastva/
- - https://gitlab.com/lukas-pastva
+ - https://gitlab.com/lukas-pastva/
  
