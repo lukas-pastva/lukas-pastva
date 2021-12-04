@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hello mz name is psw / pastwo / Lukáš Pastva 👋
 
 - 🔭 I’m currently working on new secret Startup and Chill project!
 - 🔭 I’m currently working on new DevOps + CI/CD for one big project
