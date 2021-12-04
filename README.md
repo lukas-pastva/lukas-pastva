@@ -21,7 +21,7 @@
 ![C#](img/csharp.svg)
 ![MySQL](img/mysql.svg)
 
-...(sorry no time to create icons :D)
+...(sorry no time to create more icons :D)
 
 ---
 
