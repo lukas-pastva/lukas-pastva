@@ -20,6 +20,7 @@
 ![PHP](img/php.svg)
 ![C#](img/csharp.svg)
 ![MySQL](img/mysql.svg)
+...(sorry no time to create icons :D)
 
 ---
 
