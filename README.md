@@ -1,10 +1,10 @@
 ### Hello my name is psw / pastwo / Lukáš Pastva 👋
 
-- 🔭 I’m currently working on secret Startup and Chill project!
-- 🔭 I’m currently working on DevOps + CI/CD + Dashboard + Reporting + Monitoring
-- 🌱 I’m currently learning Google Cloud
-- 🤔 I’m looking for help with SSO?
-- 👯 I’m looking to collaborate Beer drinking :D
+- 🔭 I’m currently working on Observabiltiy 2.0 project!
+- 🔭 I’m currently working on DevOps-ization of a small company (10devs)
+- 🌱 I’m currently learning k8s
+- 🤔 I’m looking for help with SMTP
+- 👯 I’m looking to collaborate Multi-cloud
 - 💬 Ask me about Anything!
 - 📫 How to reach me: info@lukaspastva.sk
 - ⚡ Fun fact: It's jungle out there, so learn, be ready, go!!!
