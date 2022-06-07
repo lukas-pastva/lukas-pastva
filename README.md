@@ -1,4 +1,4 @@
-### Hello my name is psw / pastwo / Lukáš Pastva 👋
+### Hello my name is Lukas Pastva 👋
 
 - 🔭 I’m currently working on Observabiltiy 2.0 project!
 - 🔭 I’m currently working on DevOps-ization of a small company (10devs)
