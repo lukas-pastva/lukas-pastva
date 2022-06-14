@@ -11,7 +11,7 @@
  
 
 ## All my Repos are under 
- - https://github.com/tronic-sk/
+ - https://gitlab.com/tronic-sk/
  - https://github.com/HomerBee/
  - https://github.com/SMEyo/
  - https://github.com/lukas-pastva/
