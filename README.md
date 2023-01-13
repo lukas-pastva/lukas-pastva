@@ -9,6 +9,7 @@
 - ⚡ Fun fact: It's jungle out there, so learn, be ready, go!!!
  
  [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/helm-chartie)](https://artifacthub.io/packages/search?repo=helm-chartie)
+ [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/conveior)](https://artifacthub.io/packages/search?repo=conveior)
 
 ## All my Repos are under 
  - https://github.com/lukas-pastva/conveior
