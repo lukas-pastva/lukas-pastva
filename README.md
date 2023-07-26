@@ -5,7 +5,7 @@
 - 🤔 I’m looking for help with Helm -> Operators?
 - 👯 I’m looking to collaborate Multi-cloud
 - 💬 Ask me about Anything!
-- 📫 How to reach me: info@lukaspastva.com
+- 📫 How to reach me: info@lukaspastva.sk
 - ⚡ Fun fact: It's jungle out there, so learn, be ready, go!!!
  
  [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/helm-chartie)](https://artifacthub.io/packages/search?repo=helm-chartie)
