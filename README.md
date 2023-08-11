@@ -11,7 +11,6 @@
  [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/helm-chartie)](https://artifacthub.io/packages/search?repo=helm-chartie)
 
 ## All my Repos are under 
- - https://github.com/lukas-pastva/conveior
  - https://github.com/lukas-pastva/
  - https://gitlab.com/lukas-pastva/
  
