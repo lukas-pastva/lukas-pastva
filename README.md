@@ -1,9 +1,9 @@
 ### Hello my name is Lukas Pastva 👋
 
-- 🔭 I’m currently working on https://mltech.sk
-- 🌱 I’m currently learning Kubernetes Operators
-- 🤔 I’m looking for help with Helm -> Operators?
-- 👯 I’m looking to collaborate Multi-cloud
+- 🔭 I’m currently working on starting new bussiness and building house and family!
+- 🌱 I’m currently learning CloudNativePG
+- 🤔 I’m looking for help with AWS tower?
+- 👯 I’m looking to collaborate $$$
 - 💬 Ask me about Anything!
 - 📫 How to reach me: info@lukaspastva.sk
 - ⚡ Fun fact: It's jungle out there, so learn, be ready, go!!!
