@@ -7,7 +7,7 @@ RUN apt-get update && \
 
 # Install YAML extension
 RUN pecl install yaml-2.2.1 && \
-    docker-php-ext-enable yaml \
+    docker-php-ext-enable yaml
 
 # Copy your PHP script into the container
 COPY src/cv.php /var/www/html/
