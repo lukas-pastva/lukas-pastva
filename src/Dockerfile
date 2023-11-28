@@ -5,7 +5,8 @@ FROM php:8.0-apache
 RUN pecl install yaml-2.2.1 && docker-php-ext-enable yaml
 
 # Copy your PHP script into the container
-COPY cv.php /var/www/html/
+COPY src/cv.php /var/www/html/
+COPY src/cv.yaml /var/www/html/
 
 # Expose port 80
 EXPOSE 80
