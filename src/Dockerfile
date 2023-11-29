@@ -13,5 +13,4 @@ RUN pecl install yaml-2.2.1 && \
 COPY src/cv.php /var/www/html/
 COPY cv.yaml /var/www/html/
 
-# Expose port 80
 EXPOSE 80
