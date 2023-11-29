@@ -14,3 +14,4 @@
  - https://github.com/lukas-pastva/
  - https://gitlab.com/lukas-pastva/
  
+### [Check my CV](https://cv.tronic.sk)
