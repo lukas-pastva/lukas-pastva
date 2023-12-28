@@ -1,14 +1,18 @@
 lukas-pastva:
   bornDate: 1985-03-20
   location: Slovakia, Bratislava
-  techStack:
+  hardSkills:
     languages:
       - shell
       - python
+      - go
       - java
       - php
       - css
       - html
+      - flex
+      - AS3
+      - AutoCAD
     cloudProviders:
       - aws
       - gcp
@@ -18,17 +22,74 @@ lukas-pastva:
       - digital ocean
       - linode
     hyperscalers:
-      - proxmox
-      - truenas
+      - proxmox (incl API)
+      - truenas (incl API)
     observability:
       - datadog
       - dynatrace
+      - aws cloudwatch (and more)
       - prometheus
       - loki
       - grafana
+      - thanos
+      - eBPF
+      - Cilium
+      - Hubble
+      - Open Telemetry Operator
+      - kube-prometheus-stack
+      - uptime exporter
     ciCd:
-      - GitHub actions
+      - GitHub Actions
       - GitLab CI
+      - ArgoCD
       - Jenkins
       - TeamCity
       - Automic
+    containerOrchestrators:
+      - docker
+      - docker-compose
+      - Kubernetes (EKS, rke2, GKE, VKE)
+    infrastructureAsCode:
+      - Terraform
+      - Terragrunt
+      - CloudFormation
+    messaging:
+      - Kafka
+      - MSK KAfka
+      - Strimzi
+      - PubSub
+    databases:
+      - MariaDB
+      - Postgres
+      - Oracle
+      - Redis
+      - OpenSarch
+      - Dynamo
+    maintenance:
+      - Velero
+      - Kyverno
+      - Conveior
+      - Vendir
+      - Direnv
+  softSkills:
+    languages:
+      - Slovak
+      - English
+      - German
+      - Polish
+      - Czech
+    comunication:
+      - Altruist - spoke with dozens of politicians
+      - Pre-sales architect - spoke with dozens of IT companies
+    stressManagement:
+      - 7 years as Ops
+      - 5 years as DevOps
+      - 3 years as Platform engineer
+    qualityDeliverables:
+      - understands the values of company
+      - delivery driven
+      - projects is finished when customer says so
+  hobby:
+    - Platform engineering
+    - Entrepreneurship
+    - my Wife
