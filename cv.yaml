@@ -87,6 +87,9 @@ lukas-pastva:
       - helm
     idnetityProviders:
       - Keycloak
+      - Oauth2 proxy
+      - GitLab Oauth2
+      - Google OAuth2
     tools:
       - Vendir
       - Postman
