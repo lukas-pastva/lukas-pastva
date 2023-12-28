@@ -12,6 +12,11 @@ lukas-pastva:
       - html
       - flex
       - AS3
+      - PowerShell
+      - Bash
+      - Groovy
+      - Scala
+      - rst
       - AutoCAD
     cloudProviders:
       - aws
@@ -53,11 +58,19 @@ lukas-pastva:
       - Terraform
       - Terragrunt
       - CloudFormation
+      - Ansible
+      - AWX
+    registryStores:
+      - Nexus
+      - Jfrog
+      - Harbor
     messaging:
       - Kafka
-      - MSK KAfka
+      - MSK Kafka
+      - Cloudera Kafka
       - Strimzi
       - PubSub
+      - BizTalk
     databases:
       - MariaDB
       - Postgres
@@ -65,12 +78,28 @@ lukas-pastva:
       - Redis
       - OpenSarch
       - Dynamo
+      - InfluxDB
     maintenance:
       - Velero
       - Kyverno
       - Conveior
+      - Mailu.io
+      - helm
+    idnetityProviders:
+      - Keycloak
+    tools:
       - Vendir
+      - Postman
       - Direnv
+    processes:
+      - ITIL
+      - ServiceNOW
+      - ITSM
+      - Confluence
+    reverseProxy:
+      - Traefik
+      - Nginx
+      - Apache
   softSkills:
     languages:
       - Slovak
