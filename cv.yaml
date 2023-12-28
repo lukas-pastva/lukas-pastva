@@ -26,6 +26,11 @@ lukas-pastva:
       - vultr
       - digital ocean
       - linode
+    storageProviders:
+      - TrueNAS (DemocraticCSI)
+      - Ceph (Rook)
+      - Longhorn
+      - OpenEBS
     hyperscalers:
       - proxmox (incl API)
       - truenas (incl API)
