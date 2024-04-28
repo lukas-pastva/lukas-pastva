@@ -52,7 +52,7 @@
                 echo "<li>";
                 if (is_array($value)) {
                     echo "<strong>" . htmlspecialchars($key) . ":</strong>";
-                    displayData($value); // Recursive call
+                    displayData($value);
                 } else {
                     echo htmlspecialchars($key) . ": " . htmlspecialchars($value);
                 }
