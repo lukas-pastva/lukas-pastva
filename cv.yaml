@@ -29,6 +29,8 @@ lukas-pastva:
         - IAM
         - CloudFormation
       - gcp
+      - azure
+      - oracle
       - hetzner
       - contabo
       - vultr
@@ -45,7 +47,7 @@ lukas-pastva:
     observability:
       - datadog
       - dynatrace
-      - aws cloudwatch (and more)
+      - aws cloudwatch
       - prometheus
       - loki
       - grafana
@@ -69,7 +71,7 @@ lukas-pastva:
     containerOrchestrators:
       - docker
       - docker-compose
-      - Kubernetes (EKS, rke2, GKE, VKE)
+      - Kubernetes (EKS, rke2, GKE, VKE, AKS)
     infrastructureAsCode:
       - Terraform
       - Terragrunt
