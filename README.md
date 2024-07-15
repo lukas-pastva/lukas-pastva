@@ -12,6 +12,6 @@
 
 ## All my Repos are under 
  - https://github.com/lukas-pastva/
- - https://gitlab.com/lukas-pastva/
+ - https://gitlab.com/lukaspastva/
  
 ### [Check my CV](https://cv.tronic.sk)
