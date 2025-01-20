@@ -8,11 +8,11 @@
 - 📫 How to reach me: info@lukaspastva.sk
 - ⚡ Fun fact: It's jungle out there, so learn, be ready, go!!!
  
-## All my Repos are under 
+## LINKS
  - https://github.com/lukas-pastva/
- - https://gitlab.com/lukaspastva/
- 
-### [Check my CV](https://cv.tronic.sk)
+ - https://cv.tronic.sk
+ - https://sw.tronic.sk
+ - https://lukaspastva.sk
 
 
 ### ⚡ Github Stats
