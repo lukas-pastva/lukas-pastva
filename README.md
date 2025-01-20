@@ -1,4 +1,4 @@
-### Hello my name is Lukas Pastva 👋
+## Hello my name is Lukas Pastva 👋
 
 - 🔭 I’m currently working on family ❤️
 - 🌱 I’m currently learning Advanced Argo Workflows
@@ -8,7 +8,7 @@
 - 📫 How to reach me: info@lukaspastva.sk
 - ⚡ Fun fact: It's jungle out there, so learn, be ready, go!!!
  
-## LINKS
+### LINKS
  - https://github.com/lukas-pastva/
  - https://cv.tronic.sk
  - https://sw.tronic.sk
