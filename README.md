@@ -10,7 +10,8 @@
  
 ### LINKS
  - https://github.com/lukas-pastva/
- - https://cv.tronic.sk
+ - https://cv.lukaspastva.sk
+ - https://achievements.lukaspastva.sk
  - https://sw.tronic.sk
  - https://lukaspastva.sk
 
