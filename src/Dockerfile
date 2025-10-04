@@ -12,5 +12,6 @@ RUN pecl install yaml-2.2.1 && \
 # Copy your PHP script into the container
 COPY src/index.php /var/www/html/
 COPY cv.yaml /var/www/html/
+COPY lukas-pastva.pdf /var/www/html/
 
 EXPOSE 80

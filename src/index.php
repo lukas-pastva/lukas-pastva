@@ -12,11 +12,24 @@
 </script>
 
     <meta charset="UTF-8">
-    <title>Lukas Pastva's CV</title>
+    <title>Lukas Pastva — CV</title>
     <style>
+        :root {
+            --bg1: #6db9ef;
+            --bg2: #7de2d1;
+            --surface: rgba(255, 255, 255, 0.9);
+            --text: #0f172a;
+            --muted: #475569;
+            --primary: #2563eb;
+            --primary-contrast: #ffffff;
+            --shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
+        }
+        * { box-sizing: border-box; }
         body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(45deg, #6db9ef, #7de2d1);
+            margin: 0;
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text);
+            background: linear-gradient(45deg, var(--bg1), var(--bg2));
             background-size: 400% 400%;
             animation: gradientBG 15s ease infinite;
         }
@@ -26,17 +39,43 @@
             100% { background-position: 0% 50%; }
         }
         .container {
-            background-color: rgba(255, 255, 255, 0.8);
-            border-radius: 10px;
-            padding: 20px;
-            margin: 30px auto;
-            width: 80%;
-            max-width: 800px;
+            background-color: var(--surface);
+            border-radius: 14px;
+            padding: 24px;
+            margin: 32px auto;
+            width: min(92%, 960px);
+            box-shadow: var(--shadow);
         }
-        .section { margin-bottom: 20px; }
-        .section-title { font-size: 1.4em; font-weight: bold; margin-top: 10px; }
-        ul { list-style-type: none; padding-left: 20px; }
-        li { margin-bottom: 5px; }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+        .title {
+            margin: 0;
+            font-size: clamp(1.4rem, 2.4vw + 1rem, 2rem);
+            line-height: 1.2;
+        }
+        .subtitle { color: var(--muted); margin-top: 4px; font-size: 0.95rem; }
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: var(--primary-contrast);
+            text-decoration: none;
+            padding: 10px 14px;
+            border-radius: 10px;
+            font-weight: 600;
+            box-shadow: 0 6px 14px rgba(37, 99, 235, 0.25);
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+            white-space: nowrap;
+        }
+        .btn:hover { transform: translateY(-1px); box-shadow: 0 10px 20px rgba(37, 99, 235, 0.28); }
+        .btn:active { transform: translateY(0); }
+        .divider { height: 1px; background: #e2e8f0; margin: 16px 0 8px; }
+        ul { list-style: disc; padding-left: 24px; }
+        li { margin: 4px 0; }
     </style>
 </head>
 <body>
@@ -65,8 +104,25 @@
     }
 
     if ($yaml_data && isset($yaml_data['lukas-pastva'])) {
-        echo "<h1>Lukas Pastva's CV</h1>";
-        displayData($yaml_data['lukas-pastva']);
+        $profile = $yaml_data['lukas-pastva'];
+        $name = isset($profile['name']) ? $profile['name'] : "Lukas Pastva";
+        $title = isset($profile['title']) ? $profile['title'] : "Curriculum Vitae";
+        $cv_url = isset($profile['cv']) ? $profile['cv'] : '#';
+
+        echo '<div class="header">';
+        echo '  <div>';
+        echo '    <h1 class="title">' . htmlspecialchars($name) . '</h1>';
+        echo '    <div class="subtitle">' . htmlspecialchars($title) . '</div>';
+        echo '  </div>';
+        if (file_exists('lukas-pastva.pdf')) {
+            echo '  <a class="btn" href="/lukas-pastva.pdf" download>Download PDF</a>';
+        } else if ($cv_url !== '#') {
+            echo '  <a class="btn" href="' . htmlspecialchars($cv_url) . '" target="_blank" rel="noopener">View CV</a>';
+        }
+        echo '</div>';
+        echo '<div class="divider"></div>';
+
+        displayData($profile);
     } else {
         echo "<p>Failed to load CV data.</p>";
     }

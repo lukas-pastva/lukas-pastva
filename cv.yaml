@@ -1,153 +1,222 @@
 lukas-pastva:
-  bornDate: 1985-03-20
-  location: Slovakia, Bratislava
-  techSkills:
-    languages:
-      - shell
-      - python
-      - go
-      - java
-      - php
-      - css
-      - html
-      - flex
-      - AS3
-      - PowerShell
-      - Bash
-      - Groovy
-      - Scala
-      - rst
-      - AutoCAD
-    cloudProviders:
-      - aws
-        - 5 years
-        - ECS
-        - EKS
-        - Lambda
-        - MSK
-        - OpenSearch
-        - IAM
-        - CloudFormation
-      - gcp
-      - azure
-      - oracle
-      - hetzner
-      - contabo
-      - vultr
-      - digital ocean
-      - linode
-    storageProviders:
-      - TrueNAS (DemocraticCSI)
-      - Ceph (Rook)
-      - Longhorn
-      - OpenEBS
-    hyperscalers:
-      - proxmox (incl API)
-      - truenas (incl API)
-    observability:
-      - datadog
-      - dynatrace
-      - aws cloudwatch
-      - prometheus
-      - loki
-      - grafana
-      - thanos
-      - eBPF
-      - Cilium
-      - Hubble
-      - Open Telemetry Operator
-      - kube-prometheus-stack
-      - uptime exporter
-    ciCd:
-      - GitHub Actions
-      - GitLab CI
-      - ArgoCD
-      - Jenkins
-      - TeamCity
-      - Automic
-    eventDrivenArchitecture:
-      - Argo Events
-      - Argo Workflows
-    containerOrchestrators:
-      - docker
-      - docker-compose
-      - Kubernetes (EKS, rke2, GKE, VKE, AKS)
-    infrastructureAsCode:
-      - Terraform
-      - Terragrunt
-      - CloudFormation
-      - Ansible
-      - AWX
-    registryStores:
-      - Nexus
-      - Jfrog
-      - Harbor
-      - GitLab registry
-    messaging:
-      - Kafka
-      - MSK Kafka
-      - Cloudera Kafka
-      - Strimzi
-      - PubSub
-      - BizTalk
+  name: "Lukáš Pastva"
+  title: "DevOps, Pre-Sales architect"
+  bornDate: "1985-03-20"
+  contact:
+    phone: "+421 917 744 049"
+    email: "info@lukaspastva.sk"
+    address: "Malinovo, Slovakia"
+    social:
+      linkedin: "https://linkedin.com/in/lukas-pastva/"
+      website: "https://lukaspastva.sk"
+      cv: "https://cv.tronic.sk"
+      github: "https://github.com/lukas-pastva"
+  summary:
+    - "16 years as IT professional"
+    - "CI/CD team + tech lead @ O2 Slovakia"
+    - "SaaS platform creator @ FatChilliMedia"
+    - "Pre-sales Architect @ Trustsoft"
+    - "Observability Tech Lead @ Trustsoft"
+    - "Product Owner of Observability solution @ DXC Technology"
+  talent_profile: "Mechanic, Creator"
+  languageSkills:
+    - language: "English"
+      level: "C1"
+    - language: "Slovak"
+      level: "C2"
+    - language: "German"
+      level: "A2"
+    - language: "Polish"
+      level: "A1"
+  technicalSkills:
+    cloud_providers:
+      - "AWS"
+      - "GCP"
+      - "Azure"
+      - "Digital Ocean"
+      - "Vultr"
+      - "Linode"
+      - "Contabo"
+    container_orchestration:
+      - "Kubernetes (RKE, EKS, AKS, GKE)"
+      - "Docker"
+      - "docker-compose"
+      - "ArgoCD"
+    cicd:
+      - "GitHub Actions"
+      - "GitLab CI"
+      - "Jenkins"
+      - "TeamCity"
+    iac_automation:
+      - "Terraform"
+      - "Ansible"
+      - "Salt"
+      - "Helm"
+    programming_languages:
+      - ".NET C#"
+      - "Java"
+      - "PHP"
+      - "JavaScript"
+      - "Python"
+      - "Groovy"
+    web:
+      - "HTML"
+      - "CSS"
+      - "WordPress"
+      - "Joomla"
+      - "Apache"
+      - "IIS"
+      - "Tomcat"
+      - "REST APIs"
     databases:
-      - MariaDB
-      - Postgres
-      - Oracle
-      - Redis
-      - OpenSarch
-      - Dynamo
-      - InfluxDB
-    maintenance:
-      - Velero
-      - Kyverno
-      - Conveior
-      - Mailu.io
-      - helm
-    idnetityProviders:
-      - Keycloak
-      - Oauth2 proxy
-      - GitLab Oauth2
-      - Google OAuth2
-    tools:
-      - Vendir
-      - Postman
-      - Direnv
-      - ZSH :-)
-    processes:
-      - ITIL
-      - ServiceNOW
-      - ITSM
-      - Confluence
-    reverseProxy:
-      - Traefik
-      - Nginx
-      - Apache
-    network:
-      - AWS network concepts at enterprise level
-    architectureSW:
-      - draw.io
+      - "MySQL"
+      - "MSSQL"
+      - "Oracle"
+      - "ElasticSearch"
+      - "InfluxDB"
+    devops_tools:
+      - "Nexus"
+      - "Grafana"
+      - "Loki"
+      - "Istio"
+      - "Jaeger"
+      - "Zipkin"
+    ops_service_mgmt:
+      - "ServiceNow"
+      - "Microsoft BizTalk"
+      - "ServiceBus"
+      - "ITIL"
+      - "Agile"
+    security_infra:
+      - "TLS"
+      - "SSH"
+      - "Cloudflare API"
+      - "Windows Server"
+    observability:
+      - "Prometheus"
+      - "Thanos"
+      - "Loki"
+      - "Tempo"
+      - "Dynatrace"
+      - "Datadog"
+      - "CheckMK"
+      - "InfluxDB"
+    messaging_platforms:
+      - "Kafka"
+      - "MSK (Amazon Managed Streaming for Kafka)"
+      - "Cloudera Kafka"
+      - "Strimzi"
+    chaos_engineering:
+      - "Gremlin"
+    misc:
+      - "Mailu"
+      - "Traefik"
+      - "Postman"
+      - "API integrations"
   softSkills:
-    languages:
-      - Slovak
-      - English
-      - German
-      - Polish
-      - Czech
-    comunication:
-      - Altruist - spoke with dozens of politicians
-      - Pre-sales architect - spoke with dozens of IT companies
-    stressManagement:
-      - 7 years as Ops
-      - 5 years as DevOps
-      - 3 years as Platform engineer
-    qualityDeliverables:
-      - understands the values of company
-      - delivery driven
-      - projects is finished when customer says so
+    - "Natural leader with formal training"
+    - "Skilled people manager"
+    - "Delivery-driven and enthusiastic"
+    - "Critical, technical thinker"
+    - "Understands balance of resources, quality, delivery"
+    - "Receptive to feedback"
+    - "Dedicated, multi-project professional"
+    - "Quick learner and adaptable"
+  experience:
+    - period: "2023 - present"
+      company: "Trustsoft cloud"
+      location: "Prague"
+      role: "Pre-sales Architect, Observability Tech Lead"
+      highlights:
+        - "Led client engagements and solution architecture across CH, CZ, SK"
+        - "Designed observability with Prometheus, Thanos, Loki, Tempo, Dynatrace, Datadog, CheckMK"
+        - "External for Tatra Banka: GitOps automation and app migration to AWS"
+        - "Delivered internal cloud lectures"
+    - period: "2022 - 2023"
+      company: "Fiserv"
+      location: "Bratislava"
+      role: "Messaging platform engineer, DevOps specialist"
+      highlights:
+        - "Kafka platforms: Cloudera, MSK, Strimzi"
+        - "Kubernetes EKS orchestration"
+        - "Monitoring and testing with Prometheus and JMeter"
+        - "GitOps with GitLab, ArgoCD, Helm"
+    - period: "2021 - 2024"
+      company: "FatChilliMedia"
+      location: "Bratislava"
+      role: "Platform engineer, SaaS architect"
+      highlights:
+        - "Built SaaS on Hetzner using RKE2 Kubernetes"
+        - "Prometheus monitoring and ArgoCD CD"
+        - "IaC with Terraform and Argo Workflows"
+        - "Improved DevOps via IDP/SaaS/PaaS"
+    - period: "2020 - 2022"
+      company: "DXC Technology"
+      location: "Bratislava"
+      role: "DevOps team leader"
+      highlights:
+        - "Led 10 DevOps engineers (junior/medior)"
+        - "Deployed monitoring for 200+ clients and 500+ servers across on‑prem and AWS"
+        - "EU SME for DXC-Platform-X (AWS)"
+        - "Technologies: AWS, Jenkins, Nexus, Shell, PowerShell, C#, Java, Grafana, InfluxDB"
+    - period: "2017 - 2020"
+      company: "DXC Technology"
+      location: "Bratislava"
+      role: "Ops senior - L4"
+      highlights:
+        - "SME and SPOC for case exchange systems"
+        - "2019 TLS migration of 200 interfaces with 120 customers"
+        - "Top performer annually in 50‑member team"
+        - "Tech: ServiceNow, ITIL, Java, Postman, Ansible, AWX"
+    - period: "2014 - 2016"
+      company: "Hewlett-Packard"
+      location: "Bratislava"
+      role: "Ops medior - L3"
+      highlights:
+        - "Managed and onboarded case exchange systems for 120 customers"
+        - "2016 migration of 150 servers within AD domains"
+        - "Top performer annually in 30‑member team"
+        - "Tech: Windows Server, Microsoft BizTalk, ServiceBus, .NET, SoapUI, TLS, SSL"
+    - period: "2013 - 2014"
+      company: "Hewlett-Packard"
+      location: "Bratislava"
+      role: "Senior developer"
+      highlights:
+        - "Developed Asset Management application (full stack)"
+        - "Worked as Java EE developer for insurance company"
+    - period: "2008 - 2013"
+      company: "ISSA Czech"
+      location: "Ostrava, Czechia"
+      role: "Senior Developer"
+      highlights:
+        - "Developed intranet/internet apps (PHP MVC, Oracle, Java)"
+        - "Trained juniors; projects: Skylink.cz, Ostrava2015.cz, Ekka-gold.cz, Viadrus.cz"
+  education:
+    - period: "2004 - 2008"
+      school: "Technical University of Ostrava"
+      faculty: "Faculty of Electrical Engineering and Computer Science"
+      notes:
+        - "Bachelor work: module for Visteon intranet system"
+    - period: "2000 - 2004"
+      school: "Secondary Industrial School - Kysucké Nové Mesto"
+      specialization: "Mechatronics"
+      notes:
+        - "Electronics, IT, Mechanical engineering, Hydraulics, Pneumatics"
+        - "Siemens Vienna award – CNC S7-200 belt conveyor SW/HW"
+  projects:
+    - "Skatepark builder"
+    - "Cooperation with city councils and mayors"
+    - "Administrator of popular Slovak gravity-sports web pages"
+    - "Key IT person for Ostrava 2015 European City of Culture"
+    - "Creator of 100+ web pages"
+    - "Creator of microcontroller hardware"
+    - "Open‑source projects creator"
   hobby:
-    - my Wife
-    - Platform engineering
-    - Entrepreneurship
-    - HW (PCB design, 3D printing - Prusa Mk2.5)
-    - vintage handheld audio (walkman, minidisc, dat, discman)
+    - "RKE Kubernetes cluster owner; startups member"
+    - "DevOps, Platform engineering"
+    - "IoT, 3D printing, Smart Home HW (Arduino, ESP32, rPi)"
+    - "KiCAD, AutoCAD, CNC"
+    - "Skatepark, kindergarten, workout design and building"
+    - "Local newspaper design and publishing"
+    - "Wedding cameraman"
+    - "Philanthropist"
