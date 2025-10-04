@@ -1,5 +1,7 @@
 # Lukáš Pastva — CV
 
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/helm-chartie)](https://artifacthub.io/packages/search?repo=helm-chartie)
+
 DevOps and Pre‑Sales Architect with 16+ years of experience building platforms, CI/CD, and observability for enterprises and startups. Led teams, delivered GitOps pipelines, and designed monitoring at scale.
 
 Quick links
