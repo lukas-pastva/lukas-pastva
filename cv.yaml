@@ -13,6 +13,7 @@ lukas-pastva:
       github: "https://github.com/lukas-pastva"
   summary:
     - "16 years as IT professional"
+    - "Kubernetes Architect @ DevOpsGroup"
     - "CI/CD team + tech lead @ O2 Slovakia"
     - "SaaS platform creator @ FatChilliMedia"
     - "Pre-sales Architect @ Trustsoft"
@@ -30,6 +31,7 @@ lukas-pastva:
       level: "A1"
   technicalSkills:
     cloud_providers:
+      - "Hetzner"
       - "AWS"
       - "GCP"
       - "Azure"
@@ -38,7 +40,7 @@ lukas-pastva:
       - "Linode"
       - "Contabo"
     container_orchestration:
-      - "Kubernetes (RKE, EKS, AKS, GKE)"
+      - "Kubernetes (RKE2, RKE, K3s, EKS, AKS, GKE)"
       - "Docker"
       - "docker-compose"
       - "ArgoCD"
@@ -47,6 +49,8 @@ lukas-pastva:
       - "GitLab CI"
       - "Jenkins"
       - "TeamCity"
+      - "Argo Workflows"
+      - "Argo Events"
     iac_automation:
       - "Terraform"
       - "Ansible"
@@ -92,6 +96,8 @@ lukas-pastva:
       - "SSH"
       - "Cloudflare API"
       - "Windows Server"
+      - "HashiCorp Vault"
+      - "Keycloak"
     observability:
       - "Prometheus"
       - "Thanos"
@@ -123,7 +129,33 @@ lukas-pastva:
     - "Dedicated, multi-project professional"
     - "Quick learner and adaptable"
   experience:
-    - period: "2023 - present"
+    - period: "2025 - present"
+      company: "DevOpsGroup"
+      location: "Bratislava"
+      role: "Kubernetes Architect"
+      highlights:
+        - "Architected multi-cluster Kubernetes (RKE2, K3s, EKS): topology, lifecycle, upgrades, autoscaling"
+        - "Implemented GitOps with ArgoCD: standardized Helm charts, AppProjects and promotion flows"
+        - "Built complex workflows with Argo Workflows and Argo Events for parallel jobs and migrations"
+        - "Designed secrets and identity: HashiCorp Vault + Keycloak for SSO/OAuth2 and RBAC patterns"
+        - "Delivered observability (metrics, logs, traces), dashboards, alerts and runbooks"
+        - "Hardened security with RBAC, network policies and admission controls"
+        - "Enabled developer self-service; handled capacity/cost planning, autoscaling and DR"
+        - "Acted as pre-sales architect: PoCs, demos, diagrams, proposals; mentored teams on GitOps"
+    - period: "2024 - present"
+      company: "O2 Slovakia"
+      location: "Bratislava"
+      role: "CI/CD team lead, technical lead"
+      highlights:
+        - "Led CI/CD team of 6; delivery management, mentoring, sprint planning and reporting"
+        - "Owned on‑prem GitLab Premium and Nexus/SonarQube; designed pipelines, branching, releases"
+        - "Migrated 80 microservices (700 repos) to Kubernetes (RKE2, AKS); operated 7 clusters across envs"
+        - "Implemented GitOps with ArgoCD; standardized Helm charts, multi‑values and AppProjects"
+        - "Built advanced pipelines with Argo Workflows/Events for parallel and multi‑stage deployments"
+        - "Developed Prometheus exporters and internal tools (e.g., ArgoCD App Manager, Flyway GUI)"
+        - "Delivered KTs for 100+ developers; trained Operations (20+) on Kubernetes and deployments"
+        - "Managed dedicated squad environments for isolated workflows and faster feedback"
+    - period: "2023 - 2024"
       company: "Trustsoft cloud"
       location: "Prague"
       role: "Pre-sales Architect, Observability Tech Lead"
