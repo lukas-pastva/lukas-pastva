@@ -4,10 +4,10 @@
 DevOps and Pre‑Sales Architect with 16 years of experience building platforms, CI/CD, and observability for enterprises and startups. Led teams, delivered GitOps pipelines, and designed monitoring at scale.
 
 Quick links
-- View web CV: https://cv.tronic.sk
+- View web CV: https://cv.lukaspastva.com
 - Download PDF: ./lukas-pastva.pdf
 - LinkedIn: https://linkedin.com/in/lukas-pastva/
-- Email: info@lukaspastva.sk
+- Email: info@lukaspastva.com
 
 Highlights
 - Cloud & Platforms: Hetzner, AWS, GCP, Azure; Kubernetes (RKE2/RKE/K3s/EKS/AKS/GKE), Docker, ArgoCD.

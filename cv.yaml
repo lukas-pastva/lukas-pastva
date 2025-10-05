@@ -4,12 +4,12 @@ lukas-pastva:
   bornDate: "1985-03-20"
   contact:
     phone: "+421 917 744 049"
-    email: "info@lukaspastva.sk"
+    email: "info@lukaspastva.com"
     address: "Malinovo, Slovakia"
     social:
       linkedin: "https://linkedin.com/in/lukas-pastva/"
-      website: "https://lukaspastva.sk"
-      cv: "https://cv.tronic.sk"
+      website: "https://lukaspastva.com"
+      cv: "https://cv.lukaspastva.com"
       github: "https://github.com/lukas-pastva"
   summary:
     - "16 years as IT professional"
