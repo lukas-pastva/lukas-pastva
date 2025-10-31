@@ -201,18 +201,45 @@
     // Load YAML file
     $yaml_data = yaml_parse_file('cv.yaml');
 
+    function is_list($arr) {
+        if (!is_array($arr)) {
+            return false;
+        }
+        $count = count($arr);
+        for ($i = 0; $i < $count; $i++) {
+            if (!array_key_exists($i, $arr)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     function displayData($data) {
         if (is_array($data)) {
             echo "<ul>";
-            foreach ($data as $key => $value) {
-                echo "<li>";
-                if (is_array($value)) {
-                    echo "<strong>" . htmlspecialchars($key) . ":</strong>";
-                    displayData($value);
-                } else {
-                    echo htmlspecialchars($key) . ": " . htmlspecialchars($value);
+            if (is_list($data)) {
+                // YAML sequence (list) — render values without numeric keys
+                foreach ($data as $item) {
+                    echo "<li>";
+                    if (is_array($item)) {
+                        displayData($item);
+                    } else {
+                        echo htmlspecialchars($item);
+                    }
+                    echo "</li>";
                 }
-                echo "</li>";
+            } else {
+                // YAML mapping — render key: value
+                foreach ($data as $key => $value) {
+                    echo "<li>";
+                    if (is_array($value)) {
+                        echo "<strong>" . htmlspecialchars($key) . ":</strong>";
+                        displayData($value);
+                    } else {
+                        echo htmlspecialchars($key) . ": " . htmlspecialchars($value);
+                    }
+                    echo "</li>";
+                }
             }
             echo "</ul>";
         } else {
